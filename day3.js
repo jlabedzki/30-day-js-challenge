@@ -1,3 +1,11 @@
+/**
+ * Write a function that accepts an initial integer and returns an object with
+ * three methods:
+ * - increment: increments the integer by 1
+ * - decrement: decrements the integer by 1
+ * - reset: resets the integer back to the initial integer
+ */
+
 function createCounter(init) {
   let count = init;
   const increment = () => ++count;

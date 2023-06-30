@@ -1,5 +1,5 @@
 /**
- * Given a positive integer in milliseconds, write an asynchronous function that
+ * Given a positive integer in milliseconds, write an asyncronous function that
  * sleeps for that number of milliseconds. It can resolve any value.
  */
 

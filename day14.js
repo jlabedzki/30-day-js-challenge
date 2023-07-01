@@ -16,7 +16,7 @@
  * 3. count(): returns the number of un-expired keys.
  */
 
-class ExpiringMap {
+class TTLCache {
   constructor() {
     this.map = {};
   }
@@ -52,7 +52,7 @@ class ExpiringMap {
 }
 
 // Tests
-const map = new ExpiringMap();
+const map = new TTLCache();
 map.set(1, 1, 1000);
 map.set(2, 2, 2000);
 console.log(map.get(1)); // 1

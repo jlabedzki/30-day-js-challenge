@@ -47,7 +47,7 @@ class EventEmitter {
   }
 
   emit(eventName, ...args) {
-    return this.events[eventName].map((callback) => callback(...args));
+    return this.events[eventName]?.map((callback) => callback(...args));
   }
 }
 
